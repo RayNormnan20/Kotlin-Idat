@@ -1,7 +1,14 @@
 package com.example.ec01_jose
 
-import androidx.compose.foundation.layout.*
-import androidx.compose.material3.*
+
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -12,8 +19,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 
+
 @Composable
-fun MenuOpciones(navController: NavController) {
+fun MenuScreen(navController: NavController) {
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -37,7 +45,7 @@ fun MenuOpciones(navController: NavController) {
                 ),
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(horizontal = 16.dp)
+                    .padding(horizontal = 16.dp) // Padding horizontal para el botón
             ) {
                 Text(text = "COBRO ESTACIONAMIENTO",
                     style = TextStyle(
@@ -57,7 +65,7 @@ fun MenuOpciones(navController: NavController) {
                 ),
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(horizontal = 16.dp)
+                    .padding(horizontal = 16.dp) // Padding horizontal para el botón
             ) {
                 Text(text = "PROMEDIO NOTAS",
                     style = TextStyle(
@@ -77,7 +85,7 @@ fun MenuOpciones(navController: NavController) {
                 ),
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(horizontal = 16.dp)
+                    .padding(horizontal = 16.dp) // Padding horizontal para el botón
             ) {
                 Text(text = "SACAR DNI",
                     style = TextStyle(
@@ -97,7 +105,7 @@ fun MenuOpciones(navController: NavController) {
                 ),
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(horizontal = 16.dp)
+                    .padding(horizontal = 16.dp) // Padding horizontal para el botón
             ) {
                 Text(text = "MOSTRAR PARES",
                     style = TextStyle(
@@ -107,9 +115,4 @@ fun MenuOpciones(navController: NavController) {
             }
         }
     }
-}
-
-@Composable
-fun MySpace(espacio: Int) {
-    Spacer(modifier = Modifier.size(espacio.dp))
 }

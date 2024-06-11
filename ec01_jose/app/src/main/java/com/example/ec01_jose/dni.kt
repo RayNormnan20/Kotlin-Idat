@@ -46,12 +46,16 @@ fun VerificarDNI() {
         Spacer(modifier = Modifier.height(16.dp))
         Button(
             onClick = {
-                val anoActual = Calendar.getInstance().get(Calendar.YEAR)
-                edad = anoActual - anoNacimiento.toInt()
-                resultado = if (edad >= 18) {
-                    "Debe sacar su DNI. Edad: $edad años."
+                if (anoNacimiento.isNotEmpty()) {
+                    val anoActual = Calendar.getInstance().get(Calendar.YEAR)
+                    edad = anoActual - anoNacimiento.toInt()
+                    resultado = if (edad >= 18) {
+                        "Debe sacar su DNI. Edad: $edad años."
+                    } else {
+                        "No necesita sacar su DNI aún. Edad: $edad años."
+                    }
                 } else {
-                    "No necesita sacar su DNI aún. Edad: $edad años."
+                    resultado = "Por favor, ingrese su año de nacimiento."
                 }
             },
             modifier = Modifier.fillMaxWidth()

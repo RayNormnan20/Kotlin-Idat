@@ -8,8 +8,12 @@ import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 
 @Composable
 fun CalcularTarifa() {
@@ -20,27 +24,49 @@ fun CalcularTarifa() {
     Column(
         modifier = Modifier.padding(16.dp)
     ) {
+        Text(
+            text = "Cobro Estacionamiento",
+            textAlign = TextAlign.Center,
+            modifier = Modifier.fillMaxWidth(),
+            style = TextStyle(fontWeight = FontWeight.Bold, fontSize = 30.sp)
+        )
+        Spacer(modifier = Modifier.height(16.dp))
         OutlinedTextField(
             value = horas,
             onValueChange = { horas = it },
             label = { Text("Horas") },
-            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
+            modifier = Modifier.fillMaxWidth()
         )
         Spacer(modifier = Modifier.height(16.dp))
         OutlinedTextField(
             value = minutos,
             onValueChange = { minutos = it },
             label = { Text("Minutos") },
-            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
+            modifier = Modifier.fillMaxWidth()
         )
         Spacer(modifier = Modifier.height(16.dp))
-        Button(onClick = {
-            val horasTotales = horas.toFloat() + minutos.toFloat() / 60
-            precioTotal = "Total a pagar: S/ ${horasTotales * 1500}"
-        }) {
+        Button(
+            onClick = {
+                if (horas.isNotEmpty() || minutos.isNotEmpty()) {
+                    val horasFloat = if (horas.isNotEmpty()) horas.toFloat() else 0f
+                    val minutosFloat = if (minutos.isNotEmpty()) minutos.toFloat() else 0f
+
+                    val horasTotales = horasFloat + minutosFloat / 60
+                    precioTotal = "Total a pagar: S/ ${horasTotales * 1500}"
+                } else {
+                    precioTotal = "Debes ingresar datos"
+                }
+            },
+            modifier = Modifier.fillMaxWidth()
+        ) {
             Text(text = "Calcular Precio")
         }
         Spacer(modifier = Modifier.height(16.dp))
-        Text(text = precioTotal)
+        Text(
+            text = precioTotal,
+            modifier = Modifier.fillMaxWidth()
+        )
     }
 }
