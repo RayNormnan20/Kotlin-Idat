@@ -1,4 +1,4 @@
-package pe.idat.pe.AppNavigationScreen
+package pe.idat.pe.appnavigationscreen
 
 import org.junit.Test
 

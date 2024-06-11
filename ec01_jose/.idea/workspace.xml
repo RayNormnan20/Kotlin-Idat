@@ -1,71 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLayouts">
-    <shared>
-      <config />
-    </shared>
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbef0cb7-16ed-4849-a68e-fda1c2b25568" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../josePintadoEc01/.idea/appInsightsSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josePintadoEc01/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/java/pe/edu/idat/josePintado/MenuOpciones.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppBasicComponents/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppBasicComponents/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppInitCompose/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppInitCompose/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/.idea/migrations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/.idea/migrations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/proguard-rules.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/androidTest/java/pe/edu/idat/miguelchavez/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/androidTest/java/pe/edu/idat/josePintado/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/java/pe/edu/idat/miguelchavez/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/java/pe/edu/idat/josePintado/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/java/pe/edu/idat/miguelchavez/dni.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/java/pe/edu/idat/josePintado/dni.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/java/pe/edu/idat/miguelchavez/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/java/pe/edu/idat/josePintado/estacionamiento.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/java/pe/edu/idat/miguelchavez/notasd.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/java/pe/edu/idat/josePintado/notasd.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/java/pe/edu/idat/miguelchavez/numerosPares.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/java/pe/edu/idat/josePintado/numerosPares.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/java/pe/edu/idat/miguelchavez/ui/theme/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/java/pe/edu/idat/josePintado/ui/theme/Color.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/java/pe/edu/idat/miguelchavez/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/java/pe/edu/idat/josePintado/ui/theme/Theme.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/java/pe/edu/idat/miguelchavez/ui/theme/Type.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/java/pe/edu/idat/josePintado/ui/theme/Type.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/xml/backup_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/app/src/test/java/pe/edu/idat/miguelchavez/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/app/src/test/java/pe/edu/idat/josePintado/ExampleUnitTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/gradle/libs.versions.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MiguelChavez/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/settings.gradle.kts" afterDir="false" />
+    <list default="true" id="29a57ff1-55f7-4e8f-81e9-e21455d0423e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../AppOtrosComponentes/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppOtrosComponentes/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppOtrosComponentes/app/src/main/java/idat/pe/appotroscomponentes/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../AppOtrosComponentes/app/src/main/java/idat/pe/appotroscomponentes/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../josePintadoEc01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../josePintadoEc01/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,51 +24,23 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$/app">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ec01_jose" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ec01_jose" type="f1a62948:ProjectNode" />
-                <item name="app" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ec01_jose" type="f1a62948:ProjectNode" />
-                <item name="app" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ec01_jose" type="f1a62948:ProjectNode" />
-                <item name="app" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2hhXqTTYuJo8G92X90thQBTEBmW" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2hiBUryRRKsr2mUlhoJm1rqU6yJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -139,17 +54,13 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/MIGUEL_MOVILES/Kotlin-Idat/ec01_jose",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.google.gct.login2.settings.GoogleLoginApplicationSettingsConfigurableProvider"
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="ec01_jose.app.main" />
+      <module name="Ec01_jose.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -219,11 +130,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cbef0cb7-16ed-4849-a68e-fda1c2b25568" name="Changes" comment="" />
-      <created>1718047473947</created>
+      <changelist id="29a57ff1-55f7-4e8f-81e9-e21455d0423e" name="Changes" comment="" />
+      <created>1718067035390</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1718047473947</updated>
+      <updated>1718067035390</updated>
     </task>
     <servers />
   </component>

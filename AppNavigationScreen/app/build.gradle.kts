@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "pe.idat.pe.AppNavigationScreen"
+    namespace = "pe.idat.pe.appnavigationscreen"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "pe.idat.pe.AppNavigationScreen"
+        applicationId = "pe.idat.pe.appnavigationscreen"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -60,6 +60,8 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     testImplementation(libs.junit)
+
+    implementation("androidx.navigation:navigation-compose:2.7.7")
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))

@@ -1,4 +1,4 @@
-package pe.idat.pe.AppNavigationScreen.ui.theme
+package pe.idat.pe.appnavigationscreen.ui.theme
 
 import android.app.Activity
 import android.os.Build
